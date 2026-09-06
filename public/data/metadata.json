@@ -1,0 +1,36 @@
+{
+  "title": "Autzen Stadium and surroundings",
+  "location": "Eugene, Oregon, USA",
+  "pointCount": 650000,
+  "originalPointCount": 10653336,
+  "croppedPointCount": 5078842,
+  "width": 849.9927120000185,
+  "depth": 799.9902720000043,
+  "minElevation": 125.339856,
+  "maxElevation": 181.380384,
+  "centerLongitude": -123.0685,
+  "centerLatitude": 44.0583,
+  "sourceUrl": "https://github.com/PDAL/data/blob/main/autzen/autzen.laz",
+  "downloadUrl": "https://media.githubusercontent.com/media/PDAL/data/main/autzen/autzen.laz",
+  "sourceSha256": "944b947501156e45df1b3b9d25bc1dc04ff5ef377e7e169576ba59231c2896ba",
+  "sourceCrsWkt": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"NAD83_High_Accuracy_Regional_Network\",SPHEROID[\"GRS_1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"false_easting\",1312335.958005249],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]]]",
+  "sourceUnit": "international foot",
+  "metersPerSourceUnit": 0.3048,
+  "localOriginSourceUnits": [
+    637383.5709888688,
+    851657.3650944674,
+    411.21999999999997
+  ],
+  "axes": [
+    "east meters",
+    "elevation meters above minElevation",
+    "south meters"
+  ],
+  "verticalDatum": "Not explicitly stated in source WKT; elevations retain source Z converted from feet to meters.",
+  "sampling": "Seeded 15 percent random sample within 850 x 800 meter crop; capped at 650000 returns. No interpolation.",
+  "binaryLayout": "16 bytes per point: little-endian float32 east, height, south; uint8 red, green, blue, LAS classification",
+  "classCounts": {
+    "1": 468283,
+    "2": 181717
+  }
+}
